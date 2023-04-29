@@ -20,6 +20,7 @@ function App() {
         <button onClick={()=>{
           dispatch(increment())
         }}>+</button>
+        
         <Btn/>
         <Show/>
         

@@ -24,7 +24,6 @@ function App() {
         <Btn/>
         <Show/>
         
-        
       </header>
     </div>
   );

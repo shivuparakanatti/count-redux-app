@@ -9,7 +9,6 @@ const Btn = ()=>{
         <div>
             <button onClick={()=>{
                 dispatch(increment())
-
             }}>+1</button>
             <button onClick={()=>{
                 dispatch(decrement())

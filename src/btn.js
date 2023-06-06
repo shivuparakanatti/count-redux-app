@@ -5,6 +5,7 @@ import { increment,decrement,incrementBy } from "./action/countActions";
 const Btn = ()=>{
 
     const dispatch = useDispatch()
+    
     return (
         <div>
             <button onClick={()=>{

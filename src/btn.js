@@ -6,7 +6,7 @@ const Btn = ()=>{
 
     const dispatch = useDispatch()
     
-    return (
+return (
         <div>
             <button onClick={()=>{
                 dispatch(increment())

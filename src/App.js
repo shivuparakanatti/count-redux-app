@@ -8,6 +8,7 @@ function App() {
 
   const count = useSelector((state)=>{
     return state.count
+    
   })
 
   const dispatch = useDispatch()

@@ -17,7 +17,8 @@ return (
             <button onClick={()=>{
                 dispatch(decrement())
             }}>
-            -1</button>
+            -1
+            </button>
             
         </div>
     )

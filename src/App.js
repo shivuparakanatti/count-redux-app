@@ -10,6 +10,7 @@ function App() {
     return state.count
     
   })
+  
   const dispatch = useDispatch()
   return (
     <div className="App">

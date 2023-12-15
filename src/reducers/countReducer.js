@@ -2,6 +2,7 @@ import { increment } from "../action/countActions"
 
 const intialStateValue = 0
 
+
 const countReducer = (state=intialStateValue,action)=>{
 
     switch(action.type){

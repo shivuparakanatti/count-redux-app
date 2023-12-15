@@ -15,7 +15,6 @@ const countReducer = (state=intialStateValue,action)=>{
         case 'INCREMENT_BY' : {
             return (state + action.payload)
         }
-
         default : {
             return state
         }
